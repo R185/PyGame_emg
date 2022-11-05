@@ -373,6 +373,7 @@ def game1(map, players, click_red_chicken, click_blue_chicken, emg):
         lose = 1
         finish = 1
 
+    from menu_scr import first_time
     while run:
         clock = pygame.time.Clock()
         clock.tick(fps)
@@ -433,7 +434,6 @@ def game1(map, players, click_red_chicken, click_blue_chicken, emg):
         if start == 0:  # run after start line
             map_speed += 0.5
             start_line.update()
-        from menu_scr import first_time
         second_time = datetime.datetime.now()
         delta = second_time - first_time
         if '03' == str(delta).split(':')[2].split('.')[0]:  # 3 seconds stop

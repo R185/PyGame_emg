@@ -2,7 +2,8 @@ import pygame
 import os
 import sys
 from game_settings import screen, clock
-start_music = pygame.mixer.Sound("music/Start_music.mp3")
+import start_music
+
 
 
 def terminate():
@@ -33,8 +34,8 @@ def loading():
 
 
 def start_screen():
-    start_music.play()
-    start_music.set_volume(0.3)
+
+    start_music.menu_musfon.set_volume(0.3)
     loading_use = 0
     count_fon = 0
     start_fons = []

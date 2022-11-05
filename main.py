@@ -31,7 +31,7 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 clock = pygame.time.Clock()
 run = False
 come_from_home = False
-players = 2
+players = 1
 pl1 = False
 pl2 = False
 emg1

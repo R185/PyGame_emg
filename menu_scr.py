@@ -6,7 +6,6 @@ import tkinter.messagebox as mb
 import emg1
 import game_settings
 import game
-menu_musfon = pygame.mixer.Sound("music/menu_fon.mp3")
 first_time = datetime.datetime.now()
 
 
