@@ -1,7 +1,7 @@
 # PyGame_emg
 A game with neurointerface based on EEG - sensors.
  
-This project's goal is to help people with paresis. People with leth limitations can develop their hands.
+This project's goal is to help people with paresis. People with health limitations can develop their hands.
 
 This project includes:
 
